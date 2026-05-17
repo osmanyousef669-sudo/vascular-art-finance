@@ -39,7 +39,7 @@ export default function DashboardPage() {
         />
         <StatCard
           label={t("تأمين معلق", "Pending Insurance")}
-          value={fmt(STATS.pendingInsurance)}
+          value={fmt(STATS.insurancePending)}
           sub={t("في انتظار التسوية", "Awaiting settlement")}
           variant="warning"
           icon="⏳"
