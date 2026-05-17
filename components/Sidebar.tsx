@@ -6,6 +6,8 @@ import { useLang } from "@/contexts/LangContext";
 const NAV = [
   { href: "/", iconAr: "📊", iconEn: "📊", labelAr: "لوحة التحكم", labelEn: "Dashboard" },
   { href: "/transactions", iconAr: "💳", iconEn: "💳", labelAr: "الحركات المالية", labelEn: "Transactions" },
+  { href: "/insurance", iconAr: "🏥", iconEn: "🏥", labelAr: "المطالبات التأمينية", labelEn: "Insurance Claims" },
+  { href: "/liabilities", iconAr: "📋", iconEn: "📋", labelAr: "الالتزامات والمديونيات", labelEn: "Liabilities" },
   { href: "/reports", iconAr: "📄", iconEn: "📄", labelAr: "التقارير والوثائق", labelEn: "Reports & Docs" },
   { href: "/contact", iconAr: "👥", iconEn: "👥", labelAr: "فريق علاقات المستثمرين", labelEn: "IR Team & Contact" },
 ];
